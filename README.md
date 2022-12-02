@@ -12,4 +12,4 @@ File is saved in csv format
 
 # How would you evaluate the quality of the collected data?
 
-Dots and number need to be removed
+Dots and number needs to be removed

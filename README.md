@@ -12,4 +12,4 @@ File is saved in csv format
 
 # How would you evaluate the quality of the collected data?
 
-O' o', G' g', 'tutuq belgisi' need to be fixed
+Dots and number need to be removed

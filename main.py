@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
-
+import re
 import datetime
 
 def getText(url):
@@ -17,6 +17,10 @@ def getText(url):
         text += element.text
     return [url,time,text]
 
+source_url, access_datetime, content = getText("https://kun.uz/uz/news/2022/12/02/uchinchi-davlatlarning-kun-tartibimizni-shakllantirishga-tasiri-yoq-sherzod-asadov")
+
+# word = re.findall(r'(?<!\S)[a-zA-Z0-9]\S*[a-zA-Z](?!\S)', content)
+# print(word)
 
 
 
